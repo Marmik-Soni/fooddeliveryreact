@@ -24,7 +24,9 @@ function App() {
       {/* <Products /> */}
       {/* <Team/> */}
 
-{/* Admin side coding */}
+
+
+{/* Admin Side */}
 
       <AdminLogin/>
       {/* <NewCategory/> */}
