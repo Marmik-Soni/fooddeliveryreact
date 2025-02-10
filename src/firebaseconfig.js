@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC8l5Ple89i6FkZ9QUGcnO23FldvRPgz3M",
+  apiKey: process.env.API_KEY,
   authDomain: "fooddeliveryreact-a7dd7.firebaseapp.com",
   projectId: "fooddeliveryreact-a7dd7",
   storageBucket: "fooddeliveryreact-a7dd7.firebasestorage.app",
