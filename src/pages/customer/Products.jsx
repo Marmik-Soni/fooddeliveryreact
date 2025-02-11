@@ -2,6 +2,7 @@ import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
 import PageTitle from "../../components/customer/PageTitle";
 import Product from "../../components/customer/Product";
+import ProductAdd from "../../components/customer/ProductAdd";
 
 function Products() {
   return (
@@ -59,12 +60,12 @@ function Products() {
               </div>
               <div className="col-lg-9">
                 <div className="row row-gap-4">
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
+                    <ProductAdd />
+                    <ProductAdd />
+                    <ProductAdd />
+                    <ProductAdd />
+                    <ProductAdd />
+                    <ProductAdd />
                 </div>
               </div>
             </div>
