@@ -24,11 +24,9 @@ function App() {
       {/* <Contact /> */}
       {/* <Products /> */}
       {/* <Team/> */}
-        <AddToCart/>
+      <AddToCart />
 
-
-
-{/* Admin Side */}
+      {/* ---------------- Admin Side ---------------- */}
 
       {/* <AdminLogin/> */}
       {/* <NewCategory/> */}
