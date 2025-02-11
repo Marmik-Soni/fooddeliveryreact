@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       {/* <Login /> */}
-      {/* <Register /> */}
+      <Register />
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Products /> */}
@@ -29,7 +29,7 @@ function App() {
 {/* Admin Side */}
 
       {/* <AdminLogin/> */}
-      <NewCategory/>
+      {/* <NewCategory/> */}
     </>
   );
 }
