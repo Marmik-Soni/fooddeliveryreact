@@ -11,6 +11,7 @@ import TeamMember from "./components/customer/TeamMember";
 import Team from "./pages/customer/Team";
 import AdminLogin from "./pages/admin/AdminLogin";
 import NewCategory from "./pages/admin/NewCategory";
+import AddToCart from "./pages/customer/AddToCart";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,11 +19,12 @@ function App() {
   return (
     <>
       {/* <Login /> */}
-      <Register />
+      {/* <Register /> */}
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Products /> */}
       {/* <Team/> */}
+        <AddToCart/>
 
 
 
