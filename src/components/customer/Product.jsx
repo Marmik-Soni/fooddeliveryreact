@@ -19,9 +19,15 @@ function Product() {
             <h4 className="content-text mb-32">$10.99</h4>
             <a
               href="checkout.html"
-              className="cus-btn bg-medium-black white w-100"
+              className="cus-btn bg-medium-black white w-100 mb-12"
             >
               order now
+            </a>
+            <a
+              href="checkout.html"
+              className="cus-btn bg-medium-black white w-100"
+            >
+              Remove from Cart
             </a>
           </div>
         </div>

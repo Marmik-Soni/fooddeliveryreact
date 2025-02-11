@@ -15,6 +15,7 @@ function Products() {
         <PageTitle title="Products" />
         {/* PAGE TITLE END */}
 
+        {/* PRODUCTS START */}
         <section className="shop-list">
           <div className="container-fluid">
             <div className="row row-gap-4">
@@ -69,6 +70,7 @@ function Products() {
             </div>
           </div>
         </section>
+        {/* PRODUCTS END */}
 
         {/* PAGE FOOTER START */}
         <Footer />
