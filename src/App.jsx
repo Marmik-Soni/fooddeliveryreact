@@ -28,8 +28,8 @@ function App() {
 
 {/* Admin Side */}
 
-      <AdminLogin/>
-      {/* <NewCategory/> */}
+      {/* <AdminLogin/> */}
+      <NewCategory/>
     </>
   );
 }

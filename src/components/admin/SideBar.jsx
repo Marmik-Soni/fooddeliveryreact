@@ -10,8 +10,8 @@ function SideBar() {
               id="logo_header"
               alt
               src="/savory/assets/media/cs-logo.png"
-              // data-light="/remos/images/logo/logo.png"
-              // data-dark="/remos/images/logo/logo-dark.png"
+              data-light="/savory/assets/media/cs-logo.png"
+              data-dark="/savory/assets/media/cs-logo.png"
             />
           </a>
           <div className="button-show-hide">
