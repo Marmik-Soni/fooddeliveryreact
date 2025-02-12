@@ -29,34 +29,13 @@ function Header() {
                     </a>
                     <ul>
                       <li>
-                        <a href="about.html">About Us</a>
+                        <a href="about.html">Login</a>
                       </li>
                       <li>
-                        <a href="shop-list.html">Shop List</a>
+                        <a href="shop-list.html">Register</a>
                       </li>
                       <li>
-                        <a href="shop-detail.html">shop Detail</a>
-                      </li>
-                      <li>
-                        <a href="our-team.html">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="blogs.html">Blogs</a>
-                      </li>
-                      <li>
-                        <a href="blog-list.html">Blog List</a>
-                      </li>
-                      <li>
-                        <a href="blog-detail.html">Blog Detail</a>
-                      </li>
-                      <li>
-                        <a href="checkout.html">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="404.html">404</a>
-                      </li>
-                      <li>
-                        <a href="coming-soon.html">Coming Soon</a>
+                        <a href="shop-detail.html">My Account</a>
                       </li>
                     </ul>
                   </li>

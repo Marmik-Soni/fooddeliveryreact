@@ -13,6 +13,7 @@ import AdminLogin from "./pages/admin/AdminLogin";
 import NewCategory from "./pages/admin/NewCategory";
 import AddToCart from "./pages/customer/AddToCart";
 
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -25,6 +26,7 @@ function App() {
       {/* <Products /> */}
       {/* <Team/> */}
       <AddToCart />
+      
 
       {/* ---------------- Admin Side ---------------- */}
 
