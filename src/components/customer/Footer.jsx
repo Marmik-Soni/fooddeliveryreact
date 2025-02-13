@@ -29,9 +29,9 @@ function Footer(){
                         <img src="/savory/assets/media/footer-logo.png" alt />
                       </a>
                       <p className="mb-24 white">
-                        Sed ut perspiciatis unde omins iste natus error
+                        Delivering delicious moments to your doorstep
                         <br />
-                        accusantium doloremque laudantium.
+                        Fresh, fast and always flavorful.
                       </p>
                       <div className="social-icon">
                         <a href="#" className>
@@ -163,7 +163,6 @@ function Footer(){
                   <a href="index-2.html" className="color-ter fw-700">
                     Savory Bites.
                   </a>
-                  Design &amp; Developed By UIPARADOX.
                 </p>
               </div>
             </div>

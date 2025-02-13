@@ -11,7 +11,7 @@ function AddToCart() {
       {/* HEADER MENU END */}
 
       {/* TITLE BANNER START */}
-      <PageTitle title="Add To Cart" />
+      <PageTitle title="Cart" />
       {/* TITLE BANNER END */}
 
       {/* Add To Cart Start */}
@@ -40,11 +40,6 @@ function AddToCart() {
                       Total Amount
                     </a>
                     <p>(1)</p>
-                  </div>
-                  <div className="d-flex align-items-center justify-content-between mb-16">
-                    <a href="menu.html" className="p category-content">
-                      Payment Method
-                    </a>
                   </div>
                   <a
               href="checkout.html"

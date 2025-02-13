@@ -24,7 +24,7 @@ function App() {
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Products /> */}
-      <Team/>
+      {/* <Team/> */}
       {/* <AddToCart /> */}
       {/* <Blogs /> */}
       
@@ -32,7 +32,7 @@ function App() {
       {/* ---------------- Admin Side ---------------- */}
 
       {/* <AdminLogin/> */}
-      {/* <NewCategory/> */}
+      <NewCategory/>
     </>
   );
 }
