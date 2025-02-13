@@ -25,14 +25,14 @@ function App() {
       {/* <Contact /> */}
       {/* <Products /> */}
       {/* <Team/> */}
-      {/* <AddToCart /> */}
+      <AddToCart />
       {/* <Blogs /> */}
       
 
       {/* ---------------- Admin Side ---------------- */}
 
       {/* <AdminLogin/> */}
-      <NewCategory/>
+      {/* <NewCategory/> */}
     </>
   );
 }
