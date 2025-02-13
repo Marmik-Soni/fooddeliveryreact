@@ -23,12 +23,6 @@ function Product() {
             >
               order now
             </a>
-            <a
-              href="checkout.html"
-              className="cus-btn bg-medium-black white w-100"
-            >
-              Remove from Cart
-            </a>
           </div>
         </div>
       </div>

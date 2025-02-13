@@ -20,7 +20,7 @@ function Register() {
         {/* Register Start */}
         <div id="scroll-container">
           <div className="customer-container py-40">
-            <div className="container-fluid">
+            <div className="container-fluid mb-32">
               <div className="customer-wrapper">
                 <div className="title-box ">
                   <h6 className="dark-gray">

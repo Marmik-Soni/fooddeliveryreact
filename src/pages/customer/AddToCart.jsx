@@ -16,7 +16,7 @@ function AddToCart() {
 
       {/* Add To Cart Start */}
       <section className="shop-list">
-        <div className="container-fluid">
+        <div className="container-fluid mb-32">
           <div className="row row-gap-4">
             <div className="col-lg-3">
               <div>
@@ -27,32 +27,31 @@ function AddToCart() {
                 ></form>
 
                 <div className="side-bar-part-1 mb-32">
-                  <h6 className="mb-16 color-primary">Category</h6>
+                  <h6 className="mb-16 color-primary">Checkout</h6>
                   <hr className="mb-16 light-gray" />
                   <div className="d-flex align-items-center justify-content-between mb-16">
                     <a href="menu.html" className="p category-content">
-                      Burgers
+                      Total Items
                     </a>
                     <p>(4)</p>
                   </div>
                   <div className="d-flex align-items-center justify-content-between mb-16">
                     <a href="menu.html" className="p category-content">
-                      Patty Burger
+                      Total Amount
                     </a>
                     <p>(1)</p>
                   </div>
                   <div className="d-flex align-items-center justify-content-between mb-16">
                     <a href="menu.html" className="p category-content">
-                      Fried Chicken
+                      Payment Method
                     </a>
-                    <p>(4)</p>
                   </div>
-                  <div className="d-flex align-items-center justify-content-between">
-                    <a href="menu.html" className="p category-content">
-                      Sandwiches
-                    </a>
-                    <p>(7)</p>
-                  </div>
+                  <a
+              href="checkout.html"
+              className="cus-btn bg-medium-black white w-100"
+            >
+              Checkout
+            </a>
                 </div>
               </div>
             </div>

@@ -18,7 +18,7 @@ function Products() {
 
         {/* PRODUCTS START */}
         <section className="shop-list">
-          <div className="container-fluid">
+          <div className="container-fluid mb-32">
             <div className="row row-gap-4">
               <div className="col-lg-3">
                 <div>

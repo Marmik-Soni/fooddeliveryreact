@@ -12,7 +12,7 @@ import Team from "./pages/customer/Team";
 import AdminLogin from "./pages/admin/AdminLogin";
 import NewCategory from "./pages/admin/NewCategory";
 import AddToCart from "./pages/customer/AddToCart";
-
+import Blogs from "./pages/customer/Blogs";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,8 +24,9 @@ function App() {
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Products /> */}
-      {/* <Team/> */}
-      <AddToCart />
+      <Team/>
+      {/* <AddToCart /> */}
+      {/* <Blogs /> */}
       
 
       {/* ---------------- Admin Side ---------------- */}

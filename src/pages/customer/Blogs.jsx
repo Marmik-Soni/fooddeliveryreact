@@ -10,7 +10,7 @@ function Blogs() {
               <nav className="navigation d-flex align-items-center justify-content-between py-16">
                 <a href="index-2.html" className="d-flex align-items-center">
                   <img
-                    src="assets/media/logo.png"
+                    src="/savory/assets/media/logo.png"
                     alt="/logo"
                     className="header-logo"
                   />
@@ -80,7 +80,7 @@ function Blogs() {
                     href="#"
                     className="d-xl-none d-flex main-menu__toggler mobile-nav__toggler"
                   >
-                    <img src="assets/media/icons/menu-2.png" alt />
+                    <img src="/savory/assets/media/icons/menu-2.png" alt />
                   </a>
                 </div>
               </nav>
@@ -212,7 +212,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-1.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-1.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -246,7 +246,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-2.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-2.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -280,7 +280,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-3.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-3.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -317,7 +317,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-4.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-4.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -354,7 +354,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-5.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-5.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -391,7 +391,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-6.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-6.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -428,7 +428,7 @@ function Blogs() {
                   <div className="blog-content-area">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-7.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-7.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -465,7 +465,7 @@ function Blogs() {
                   <div className="blog-content-area mb-48">
                     <div className="blog-img">
                       <a href="blog-detail.html">
-                        <img className src="assets/media/blog/blog-8.jpg" alt />
+                        <img className src="/savory/assets/media/blog/blog-8.jpg" alt />
                       </a>
                     </div>
                     <div className="blog-text-area">
@@ -583,7 +583,7 @@ function Blogs() {
                   <div className="col-md-4">
                     <div className="information-1 text-center">
                       <a href="index-2.html" className="mb-24">
-                        <img src="assets/media/footer-logo.png" alt />
+                        <img src="/savory/assets/media/footer-logo.png" alt />
                       </a>
                       <p className="mb-24 white">
                         Sed ut perspiciatis unde omins iste natus error
