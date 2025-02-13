@@ -9,30 +9,25 @@ import About from "./pages/customer/About";
 import Products from "./pages/customer/Products";
 import TeamMember from "./components/customer/TeamMember";
 import Team from "./pages/customer/Team";
-import AdminLogin from "./pages/admin/AdminLogin";
-import NewCategory from "./pages/admin/NewCategory";
 import AddToCart from "./pages/customer/AddToCart";
 import Blogs from "./pages/customer/Blogs";
-
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       {/* <Login /> */}
-      {/* <Register /> */}
+      <Register />
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Products /> */}
       {/* <Team/> */}
-      <AddToCart />
+      {/* <AddToCart /> */}
       {/* <Blogs /> */}
       
 
       {/* ---------------- Admin Side ---------------- */}
 
-      {/* <AdminLogin/> */}
-      {/* <NewCategory/> */}
     </>
   );
 }

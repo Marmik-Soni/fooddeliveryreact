@@ -1,8 +1,17 @@
+import { useState } from "react";
 import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
 import PageTitle from "../../components/customer/PageTitle";
 
 function Login() {
+  let [email, setEmail] = useState("");
+  let [password, setPassword] = useState("");
+
+  function handleLogin() {
+    console.log(email);
+    console.log(password);
+  }
+
   return (
     <>
       <div>
@@ -11,9 +20,9 @@ function Login() {
           {/* HEADER MENU START */}
           <Header />
           {/* HEADER MENU END */}
-          
+
           {/* TITLE BANNER START */}
-          <PageTitle title="Login"/>
+          <PageTitle title="Login" />
           {/* TITLE BANNER END */}
 
           {/* Customer Container Start */}
@@ -21,11 +30,9 @@ function Login() {
             <div className="container-fluid">
               <div className="customer-wrapper">
                 <div className="title-box ">
-                  <h4 className="dark-gray">
-                    Login
-                  </h4>
+                  <h4 className="dark-gray">Login</h4>
                 </div>
-                <div className="sign-form" style={{display: 'block'}}>
+                <div className="sign-form" style={{ display: "block" }}>
                   <p className="fw-500 mb-16">
                     If you’ve shopped with us before, enter your information
                     below. New customers, please sign up on our website.
@@ -35,6 +42,8 @@ function Login() {
                       <div className="col-lg-6">
                         <div className="input-block">
                           <input
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                             type="text"
                             name="name"
                             id="firstname"
@@ -58,6 +67,8 @@ function Login() {
                       <div className="col-lg-6">
                         <div className="input-block">
                           <input
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
                             type="password"
                             name="password"
                             id="passWord"
@@ -75,7 +86,8 @@ function Login() {
                       </div>
                       <div className="col-lg-6">
                         <button
-                          type="submit"
+                          onClick={handleLogin}
+                          type="button"
                           className="cus-btn border-0 sign-submit-btn"
                         >
                           <span>Sign In</span>
@@ -89,12 +101,10 @@ function Login() {
           </div>
           {/* Customer Container End */}
 
-
           {/* FOOTER START */}
           <Footer />
           {/* FOOTER END */}
 
-          
           {/* Main Wrapper End */}
         </div>
         {/* Back To Top Start */}
@@ -142,4 +152,5 @@ function Login() {
   );
 }
 
-export default Login
+export default Login;
+  

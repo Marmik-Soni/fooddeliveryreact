@@ -1,8 +1,22 @@
+import { useState } from "react";
 import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
 import PageTitle from "../../components/customer/PageTitle";
 
 function Register() {
+
+  let [fnm, setFnm] = useState();
+  let [lnm, setLnm] = useState();
+  let [email, setEmail] = useState();
+  let [password, setPassword] = useState();
+
+  function handleRegister() {
+    console.log(fnm);
+    console.log(lnm);
+    console.log(email);
+    console.log(password);
+  }
+
   return (
     <>
       {/* Main Wrapper Start */}
@@ -44,6 +58,8 @@ function Register() {
                       <div className="col-lg-6">
                         <div className="input-block">
                           <input
+                            value={fnm}
+                            onChange={(e) => setFnm(e.target.value)}
                             type="text"
                             name="name"
                             id="firstname"
@@ -55,6 +71,8 @@ function Register() {
                       <div className="col-lg-6">
                         <div className="input-block">
                           <input
+                            value={lnm}
+                            onChange={(e) => setLnm(e.target.value)}
                             type="text"
                             name="name"
                             id="lastname"
@@ -66,6 +84,8 @@ function Register() {
                       <div className="col-lg-6">
                         <div className="input-block">
                           <input
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                             type="text"
                             name="username"
                             id="username"
@@ -77,6 +97,8 @@ function Register() {
                       <div className="col-lg-6">
                         <div className="input-block">
                           <input
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
                             type="password"
                             name="password"
                             id="passWord"
@@ -88,7 +110,8 @@ function Register() {
 
                       <div className="col-lg-6">
                         <button
-                          type="submit"
+                          onClick={handleRegister}
+                          type="button"
                           className="cus-btn border-0 sign-submit-btn"
                         >
                           <span>Sign Up</span>
