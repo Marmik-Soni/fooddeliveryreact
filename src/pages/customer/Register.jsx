@@ -11,10 +11,10 @@ function Register() {
   let [password, setPassword] = useState();
 
   function handleRegister() {
-    console.log(fnm);
-    console.log(lnm);
-    console.log(email);
-    console.log(password);
+    console.log("First Name :", fnm);
+    console.log("Last Name :", lnm);
+    console.log("Email :", email);
+    console.log("Password :", password);
   }
 
   return (
@@ -90,7 +90,7 @@ function Register() {
                             name="username"
                             id="username"
                             className="form-control"
-                            placeholder="Username"
+                            placeholder="Email"
                           />
                         </div>
                       </div>

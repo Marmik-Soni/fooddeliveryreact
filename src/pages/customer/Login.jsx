@@ -8,8 +8,8 @@ function Login() {
   let [password, setPassword] = useState("");
 
   function handleLogin() {
-    console.log(email);
-    console.log(password);
+    console.log("Email :", email);
+    console.log("Password :", password);
   }
 
   return (
@@ -48,7 +48,7 @@ function Login() {
                             name="name"
                             id="firstname"
                             className="form-control"
-                            placeholder="Username or email address"
+                            placeholder="Email address"
                           />
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
