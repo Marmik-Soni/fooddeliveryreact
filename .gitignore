@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-src
-remos
+src/css
+public/remos
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
