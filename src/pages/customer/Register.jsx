@@ -38,7 +38,7 @@ function Register() {
               <div className="customer-wrapper">
                 <div className="title-box ">
                   <h6 className="dark-gray">
-                    Returning Customer?
+                    Already a Customer?&nbsp;
                     <a
                       href="javascript:;"
                       className="color-ter text-decoration-underline signin-button"

@@ -11,7 +11,7 @@ import TeamMember from "./components/customer/TeamMember";
 import Team from "./pages/customer/Team";
 import AddToCart from "./pages/customer/AddToCart";
 import Blogs from "./pages/customer/Blogs";
-import AdminLogin from "./pages/admin/AdminLogin";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -27,7 +27,6 @@ function App() {
       {/* <Blogs /> */}
       
       {/* ---------------- Admin Side ---------------- */}
-      <AdminLogin />
     </>
   );
 }
