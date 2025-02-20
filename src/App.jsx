@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      {/* <Login /> */}
+      <Login />
       {/* <Register /> */}
       {/* <About /> */}
       {/* <Contact /> */}
