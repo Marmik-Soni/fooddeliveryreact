@@ -1,29 +1,27 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router";
 import "./App.css";
+
+// Customer Pages
 import Login from "./pages/customer/Login";
-import Contact from "./pages/customer/Contact";
 import Register from "./pages/customer/Register";
-import About from "./pages/customer/About";
-import Products from "./pages/customer/Products";
-import TeamMember from "./components/customer/TeamMember";
-import Team from "./pages/customer/Team";
-import AddToCart from "./pages/customer/AddToCart";
-import Blogs from "./pages/customer/Blogs";
+import Home from "./pages/customer/Home";
+import Contact from "./pages/customer/Contact";
+import Menu from "./pages/customer/Menu";
+
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Login />
-      {/* <Register /> */}
-      {/* <About /> */}
-      {/* <Contact /> */}
-      {/* <Products /> */}
-      {/* <Team/> */}
-      {/* <AddToCart /> */}
-      {/* <Blogs /> */}
-      
-      {/* ---------------- Admin Side ---------------- */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
     </>
   );
 }

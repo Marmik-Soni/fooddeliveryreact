@@ -1,10 +1,12 @@
+import { NavLink } from "react-router";
+
 function Header() {
   return (
     <>
       <header className="header">
         <div className="container-fluid">
           <nav className="navigation d-flex align-items-center justify-content-between py-16">
-            <a href="index-2.html" className="d-flex align-items-center">
+            <a href="/" className="d-flex align-items-center">
               <img
                 src="/savory/assets/media/logo.png"
                 alt="/logo"
@@ -15,13 +17,13 @@ function Header() {
               <div className="main-menu__nav">
                 <ul className="main-menu__list">
                   <li>
-                    <a href="index-2.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <a href="shop.html">Shop</a>
                   </li>
                   <li>
-                    <a href="menu.html">Menu</a>
+                    <NavLink to="/menu">Menu</NavLink>
                   </li>
                   <li className="dropdown">
                     <a href="javascript:void(0);" className="active">
@@ -29,18 +31,18 @@ function Header() {
                     </a>
                     <ul>
                       <li>
-                        <a href="about.html">Login</a>
+                        <NavLink to="/login">Login</NavLink>
                       </li>
                       <li>
-                        <a href="shop-list.html">Register</a>
+                        <NavLink to="/register">Register</NavLink>
                       </li>
                       <li>
-                        <a href="shop-detail.html">My Account</a>
+                        {/* <NavLink to="/my-account">My Account</NavLink> */}
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
+                    <NavLink to="/contact">Contact Us</NavLink>
                   </li>
                 </ul>
               </div>
