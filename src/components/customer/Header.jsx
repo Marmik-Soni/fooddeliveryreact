@@ -20,7 +20,7 @@ function Header() {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="shop.html">Shop</a>
+                    <NavLink to="/products">Shop</NavLink>
                   </li>
                   <li>
                     <NavLink to="/menu">Menu</NavLink>
@@ -36,9 +36,9 @@ function Header() {
                       <li>
                         <NavLink to="/register">Register</NavLink>
                       </li>
-                      <li>
-                        {/* <NavLink to="/my-account">My Account</NavLink> */}
-                      </li>
+                      {/* <li>
+                        <NavLink to="/my-account">My Account</NavLink>
+                      </li> */}
                     </ul>
                   </li>
                   <li>
@@ -49,9 +49,9 @@ function Header() {
             </div>
             <div className="main-menu__right">
               <div className="search-heart-icon d-sm-flex d-none align-items-center gap-24">
-                <a className="cus-btn" href="contact.html">
+                <NavLink className="cus-btn" to="/admin">
                   <span className="text">Admin</span>
-                </a>
+                </NavLink>
               </div>
               <a
                 href="#"
