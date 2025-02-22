@@ -1,6 +1,5 @@
 import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
-import PageTitle from "../../components/customer/PageTitle";
 function Home() {
   return (
     <>
@@ -281,14 +280,14 @@ function Home() {
                     <h5 className="color-quat mb-24 text-end">
                       fresh
                       <br />
-                      produce
+                      veggies
                     </h5>
                     <div className="d-flex align-items-center justify-content-end light-gray gap-8">
-                      <p className="mb-4p light-gray">Made Fresh Everyday</p>
+                      <p className="mb-4p light-gray">Only Fresh Veggies</p>
                       <div className="ingredients-ul" />
                     </div>
                     <div className="d-flex align-items-center justify-content-end light-gray gap-8">
-                      <p className="light-gray">Hand-Tossed</p>
+                      <p className="light-gray">Quality Checked</p>
                       <div className="ingredients-ul" />
                     </div>
                   </div>

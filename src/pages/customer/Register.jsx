@@ -40,7 +40,7 @@ function Register() {
                   <h6 className="dark-gray">
                     Already a Customer?&nbsp;
                     <a
-                      href="javascript:;"
+                      href="/login"
                       className="color-ter text-decoration-underline signin-button"
                     >
                       Click here to login

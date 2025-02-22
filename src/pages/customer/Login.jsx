@@ -11,7 +11,7 @@ function Login() {
     console.log("Email :", email);
     console.log("Password :", password);
   }
-
+  
   return (
     <>
       <div>
@@ -30,7 +30,15 @@ function Login() {
             <div className="container-fluid">
               <div className="customer-wrapper">
                 <div className="title-box ">
-                  <h4 className="dark-gray">Login</h4>
+                <h6 className="dark-gray">
+                    New Customer?&nbsp;
+                    <a
+                      href="/register"
+                      className="color-ter text-decoration-underline signin-button"
+                    >
+                      Click here to register
+                    </a>
+                  </h6>
                 </div>
                 <div className="sign-form" style={{ display: "block" }}>
                   <p className="fw-500 mb-16">

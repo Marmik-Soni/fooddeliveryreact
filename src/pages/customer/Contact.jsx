@@ -6,12 +6,11 @@ function Contact() {
   return (
     <>
       
-        {/* HEADER MENU START */}
+        {/* HEADER MENU */}
         <Header />
-        {/* HEADER MENU END */}
-        {/* TITLE BANNER START */}
+
+        {/* TITLE BANNER */}
         <PageTitle title="Contact Us"/>
-        {/* TITLE BANNER END */}
 
 
         {/* Contact Us Section start */}
@@ -22,12 +21,12 @@ function Contact() {
                             
                             <div className="col-xl-6">
                                 <div className="table-booking">
-                                    <form method="post" className="contact-form mb-16">
+                                    <form method="POST" className="contact-form mb-16" action="https://getform.io/f/axowwvzb">
                                         <h4 className="color-primary mb-24">Customer Support</h4>
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="input-block mb-16">
-                                                    <input type="text" name="name" id="name" className="form-control form-control-2" required placeholder="First Name" />
+                                                    <input type="text" name="name" id="name" className="form-control form-control-2" required placeholder="Your Name" />
                                                     <svg xmlns="http://www.w3.org/2000/svg" width={21} height={20} viewBox="0 0 21 20" fill="none">
                                                         <path d="M10.5 0C7.59223 0 5.22656 2.36566 5.22656 5.27344C5.22656 8.18121 7.59223 10.5469 10.5 10.5469C13.4078 10.5469 15.7734 8.18121 15.7734 5.27344C15.7734 2.36566 13.4078 0 10.5 0ZM10.5 9.375C8.2384 9.375 6.39844 7.53504 6.39844 5.27344C6.39844 3.01184 8.2384 1.17188 10.5 1.17188C12.7616 1.17188 14.6016 3.01184 14.6016 5.27344C14.6016 7.53504 12.7616 9.375 10.5 9.375Z" fill="#141516" />
                                                         <path d="M17.0612  13.992C15.6174 12.5261 13.7035 11.7188 11.6719 11.7188H9.32812C7.29656 11.7188 5.38258 12.5261 3.93883 13.992C2.50215 15.4507 1.71094 17.3763 1.71094 19.4141C1.71094 19.7377 1.97328 20 2.29688 20H18.7031C19.0267 20 19.2891 19.7377 19.2891 19.4141C19.2891 17.3763 18.4979 15.4507 17.0612 13.992ZM2.90859 18.8281C3.20215 15.5045 5.96918 12.8906 9.32812 12.8906H11.6719C15.0308 12.8906 17.7979 15.5045 18.0914 18.8281H2.90859Z" fill="#141516" />
@@ -108,9 +107,8 @@ function Contact() {
         {/* Contact Us Section END */}
 
 
-        {/* FOOTER START */}
+        {/* FOOTER */}
         <Footer />
-        {/* FOOTER END */}
         
     </>
   );

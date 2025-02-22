@@ -12,8 +12,6 @@ function AdminHome() {
 
   return (
     <>
-    <link rel="stylesheet" type="text/css" href="/remos/css/style.css"></link>
-
       <div id="page" className>
         <div className="wrap-login-page">
           <div className="flex-grow flex flex-column justify-center gap30">
