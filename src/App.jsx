@@ -1,6 +1,7 @@
 // Libraries imports
 import { useState } from "react";
 import { Routes, Route } from "react-router";
+import { ToastContainer } from "react-toastify";
 import "./App.css";
 
 // Customer Pages Imports
@@ -32,6 +33,9 @@ function App() {
         {/* Admin Pages Routing */}
         <Route path="/admin" element={<AdminLogin />} />
       </Routes>
+
+        {/* Toaster */}
+        <ToastContainer />
     </>
   );
 }

@@ -2,14 +2,21 @@ import { useState } from "react";
 import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
 import PageTitle from "../../components/customer/PageTitle";
+import { Error, Success } from "../../utils/messeges";
+
 
 function Login() {
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
 
   function handleLogin() {
-    console.log("Email :", email);
-    console.log("Password :", password);
+    if(email == "" || password == ""){
+      Error("Please fill all fields");
+      return
+    }
+    else{
+      Success("Login Successful")
+    }
   }
   
   return (
