@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
 
       {/* Home Page Content */}
       <div id="scroll-container">
+        
         {/* HERO BANNER START */}
         <section className="hero-banner">
           <div className="container-fluid">
@@ -50,9 +52,9 @@ function Home() {
                         <p className="fw-600 white">+3</p>
                       </div>
                     </div>
-                    <a className="cus-btn" href="checkout.html">
+                    <NavLink className="cus-btn" to="/products">
                       <span className="text">order now</span>
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -85,7 +87,7 @@ function Home() {
                   </p>
                   <a
                     className="cus-btn bg-medium-black white "
-                    href="menu.html"
+                    href="/menu"
                   >
                     view menu
                   </a>

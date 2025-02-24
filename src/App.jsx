@@ -19,9 +19,9 @@ function App() {
 
   return (
     <>
-
-          {/* Client pages Routing */}
+      {/* Routing Begins */}
       <Routes>
+        {/* Client pages Routing */}
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
@@ -29,10 +29,9 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/products" element={<Products />} />
 
-          {/* Admin Pages Routing */}
+        {/* Admin Pages Routing */}
         <Route path="/admin" element={<AdminLogin />} />
       </Routes>
-
     </>
   );
 }
