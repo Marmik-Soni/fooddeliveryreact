@@ -9,7 +9,7 @@ function Success(msg){
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "light"
+        theme: "colored"
       });
 }
 
@@ -22,7 +22,7 @@ function Error(msg){
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "light"
+        theme: "colored"
       });
 }
 

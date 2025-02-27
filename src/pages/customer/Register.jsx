@@ -3,6 +3,13 @@ import Footer from "../../components/customer/Footer";
 import Header from "../../components/customer/Header";
 import PageTitle from "../../components/customer/PageTitle";
 
+// Toastify Imports
+import { Error, Success } from "../../utils/messeges";
+
+// Firebase Auth Imports
+import { auth } from "../../firebaseconfig.js";
+import { createUserWithEmailAndPassword , updateProfile } from "firebase/auth";
+
 function Register() {
 
   let [fnm, setFnm] = useState();
@@ -10,11 +17,31 @@ function Register() {
   let [email, setEmail] = useState();
   let [password, setPassword] = useState();
 
-  function handleRegister() {
-    console.log("First Name :", fnm);
-    console.log("Last Name :", lnm);
-    console.log("Email :", email);
-    console.log("Password :", password);
+  // function handleRegister() {
+  //   if(fnm == "" || lnm == "" || email == "" || password == ""){
+  //     Error("Please fill all fields");  
+  //   }
+  //   else{
+  //     Success("Registration Successful")
+  //   }
+
+  // }
+
+  async function register() {
+    try{
+      let userCredentials = await createUserWithEmailAndPassword(auth, email, password);
+      if(userCredentials.user){
+        await updateProfile(userCredentials.user, {
+          displayName: fnm + " " + lnm,
+        });
+      }
+      Success("Registration Successful!");
+    }
+    catch(err){
+      console.log(err);
+      Error("Registration Failed!");
+    }
+    
   }
 
   return (
@@ -110,7 +137,7 @@ function Register() {
 
                       <div className="col-lg-6">
                         <button
-                          onClick={handleRegister}
+                          onClick={register}
                           type="button"
                           className="cus-btn border-0 sign-submit-btn"
                         >

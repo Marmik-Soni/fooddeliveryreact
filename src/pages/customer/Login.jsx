@@ -12,7 +12,6 @@ function Login() {
   function handleLogin() {
     if(email == "" || password == ""){
       Error("Please fill all fields");
-      return
     }
     else{
       Success("Login Successful")
