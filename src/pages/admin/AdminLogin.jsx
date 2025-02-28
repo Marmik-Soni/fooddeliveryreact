@@ -10,6 +10,8 @@ function AdminHome() {
     console.log("Password :", password);
   };
 
+  
+
   return (
     <>
       <div id="page" className>
