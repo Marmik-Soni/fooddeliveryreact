@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC8l5Ple89i6FkZ9QUGcnO23FldvRPgz3M",
+  apiKey : "AIzaSyC8l5Ple89i6FkZ9QUGcnO23FldvRPgz3M",
   authDomain: "fooddeliveryreact-a7dd7.firebaseapp.com",
   projectId: "fooddeliveryreact-a7dd7",
   storageBucket: "fooddeliveryreact-a7dd7.firebasestorage.app",
