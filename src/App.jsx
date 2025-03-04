@@ -29,13 +29,12 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/products" element={<Products />} />
-
         {/* Admin Pages Routing */}
         <Route path="/admin" element={<AdminLogin />} />
       </Routes>
 
-        {/* Toaster */}
-        <ToastContainer />
+      {/* Toaster */}
+      <ToastContainer />
     </>
   );
 }
