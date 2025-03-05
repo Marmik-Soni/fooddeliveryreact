@@ -71,7 +71,7 @@ function AdminHome() {
                     Forgot password?
                   </a>
                 </div>
-                <a className="tf-button w-full" onClick={handleLogin}>
+                <a className="tf-button w-full" onClick={handleLogin} href="/admin/dashboard">
                   Login
                 </a>
               </form>

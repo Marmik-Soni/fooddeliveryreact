@@ -14,6 +14,9 @@ import Products from "./pages/customer/Products";
 
 // Admin Pages Imports
 import AdminLogin from "./pages/admin/AdminLogin";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AddCategory from "./pages/admin/AddCategory";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,15 +25,19 @@ function App() {
     <>
       {/* Routing Begins */}
       <Routes>
-        {/* Client pages Routing */}
+        
+        {/* Customer Side Routing */}
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/products" element={<Products />} />
-        {/* Admin Pages Routing */}
+        
+        {/* Admin Side Routing */}
         <Route path="/admin" element={<AdminLogin />} />
+        <Route path="/admin/dashboard" element={<AdminDashboard/>} />
+        <Route path="/AddCategory" element={<AddCategory/>} />
       </Routes>
 
       {/* Toaster */}
