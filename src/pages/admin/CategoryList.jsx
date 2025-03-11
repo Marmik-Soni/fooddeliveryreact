@@ -684,13 +684,12 @@ function CategoryList() {
                                 </div>
                                 <div className="list-icon-function">
                                   <div className="item eye">
-                                    <i className="icon-eye" />
+                                  {/* Edit Icon */}
+                                  <div class="icons8-edit"></div>
                                   </div>
                                   <div className="item edit">
-                                    <i className="icon-edit-3" />
-                                  </div>
-                                  <div className="item trash">
-                                    <i className="icon-trash-2" />
+                                  {/* Delete Icon */}
+                                  <div class="icons8-delete"></div>
                                   </div>
                                 </div>
                               </li>
