@@ -1,5 +1,4 @@
 // Libraries imports
-import { useState } from "react";
 import { Routes, Route } from "react-router";
 import { ToastContainer } from "react-toastify";
 import "./App.css";
@@ -16,28 +15,29 @@ import Products from "./pages/customer/Products";
 import AdminLogin from "./pages/admin/AdminLogin";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AddCategory from "./pages/admin/AddCategory";
+import CategoryList from "./pages/admin/CategoryList";
+
 
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
       {/* Routing Begins */}
       <Routes>
         
-        {/* Customer Side Routing */}
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/products" element={<Products />} />
-        
-        {/* Admin Side Routing */}
+
+
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard/>} />
         <Route path="/AddCategory" element={<AddCategory/>} />
+        <Route path="/categoryList" element={<CategoryList/>} />
       </Routes>
 
       {/* Toaster */}
