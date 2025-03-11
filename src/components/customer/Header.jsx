@@ -54,7 +54,7 @@ function Header() {
                 </NavLink>
               </div>
               <a
-                href="#"
+                href="/"
                 className="d-xl-none d-flex main-menu__toggler mobile-nav__toggler"
               >
                 <img src="/savory/assets/media/icons/menu-2.png" alt />
