@@ -416,7 +416,7 @@ function AdminHeader(){
                           className="dropdown-menu dropdown-menu-end has-content"
                           aria-labelledby="dropdownMenuButton4"
                         >
-                          <li>
+                          {/* <li>
                             <h6>Related apps</h6>
                           </li>
                           <li>
@@ -494,7 +494,7 @@ function AdminHeader(){
                                 </a>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li>
                             <a href="#" className="tf-button w-full">
                               View all app

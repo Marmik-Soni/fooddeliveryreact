@@ -657,7 +657,7 @@ function CategoryList() {
                       <div className="wg-table table-all-attribute">
                         <ul className="table-title flex gap20 mb-14">
                           <li>
-                            <div className="body-title">Category</div>
+                            <div className="body-title">Name</div>
                           </li>
                           <li>
                             <div className="body-title">Description</div>

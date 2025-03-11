@@ -4,7 +4,7 @@ function AdminSideBar(){
          {/* section-menu-left */}
          <div className="section-menu-left">
               <div className="box-logo">
-                <a href="/" id="site-logo-inner">
+                <a href="/admin/dashboard" id="site-logo-inner">
                   <img
                     className
                     id="logo_header"
@@ -99,7 +99,7 @@ function AdminSideBar(){
                           <div className="icon">
                             <i className="icon-box" />
                           </div>
-                          <div className="text">Attributes</div>
+                          <a href="/AddProducts"><div className="text">Add Products</div></a>
                         </a>
                         <ul className="sub-menu">
                           <li className="sub-menu-item">
