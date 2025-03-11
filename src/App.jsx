@@ -16,6 +16,7 @@ import AdminLogin from "./pages/admin/AdminLogin";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AddCategory from "./pages/admin/AddCategory";
 import CategoryList from "./pages/admin/CategoryList";
+import AddProducts from "./pages/admin/AddProducts";
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/admin/dashboard" element={<AdminDashboard/>} />
         <Route path="/AddCategory" element={<AddCategory/>} />
         <Route path="/categoryList" element={<CategoryList/>} />
+        <Route path="/AddProducts" element={<AddProducts/>} />
       </Routes>
 
       {/* Toaster */}
