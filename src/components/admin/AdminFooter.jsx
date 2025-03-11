@@ -4,13 +4,10 @@ function AdminFooter(){
          {/* bottom-page */}
          <div className="bottom-page">
                   <div className="body-text">
-                    Go to SavoryBites Homepage.
+                    Go to SavoryBites <a href="/"> Homepage.</a>
                   </div>
                   <i className="icon-heart" />
-                  <div className="body-text">
-                    <a href="/">
-                      Home Page
-                    </a>
+                    <div className="body-text">
                   </div>
                 </div>
                 {/* /bottom-page */}

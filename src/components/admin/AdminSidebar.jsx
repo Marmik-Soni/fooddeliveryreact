@@ -4,7 +4,7 @@ function AdminSideBar(){
          {/* section-menu-left */}
          <div className="section-menu-left">
               <div className="box-logo">
-                <a href="/admin/dashboard" id="site-logo-inner">
+                <a href="/" id="site-logo-inner">
                   <img
                     className
                     id="logo_header"
@@ -25,7 +25,7 @@ function AdminSideBar(){
                     <ul className="menu-list">
                       <li className="menu-item has-children active">
                         <a
-                          href="javascript:void(0);"
+                          href="/admin/dashboard"
                           className="menu-item-button"
                         >
                           <div className="icon">
@@ -36,47 +36,11 @@ function AdminSideBar(){
                       </li>
                     </ul>
                   </div>
+                  
                   <div className="center-item">
                     <div className="center-heading">All page</div>
                     <ul className="menu-list">
-                      <li className="menu-item has-children">
-                        <a
-                          href="javascript:void(0);"
-                          className="menu-item-button"
-                        >
-                          <div className="icon">
-                            <i className="icon-shopping-cart" />
-                          </div>
-                          <div className="text">Ecommerce</div>
-                        </a>
-                        <ul className="sub-menu">
-                          <li className="sub-menu-item">
-                            <a href="add-product.html" className>
-                              <div className="text">Add Product</div>
-                            </a>
-                          </li>
-                          <li className="sub-menu-item">
-                            <a href="product-list.html" className>
-                              <div className="text">Product List</div>
-                            </a>
-                          </li>
-                          <li className="sub-menu-item">
-                            <a href="product-detail-1.html" className>
-                              <div className="text">Product Detail 1</div>
-                            </a>
-                          </li>
-                          <li className="sub-menu-item">
-                            <a href="product-detail-2.html" className>
-                              <div className="text">Product Detail 2</div>
-                            </a>
-                          </li>
-                          <li className="sub-menu-item">
-                            <a href="product-detail-3.html" className>
-                              <div className="text">Product Detail 3</div>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
+                      
                       <li className="menu-item has-children">
                         <a
                           href="javascript:void(0);"
@@ -85,7 +49,7 @@ function AdminSideBar(){
                           <div className="icon">
                             <i className="icon-layers" />
                           </div><a href="/AddCategory">
-                          <div className="text" >Category</div>
+                          <div className="text" > Add Category</div>
                           </a>
                         </a>
                         <ul className="sub-menu">
@@ -101,6 +65,32 @@ function AdminSideBar(){
                           </li>
                         </ul>
                       </li>
+
+                      <li className="menu-item has-children">
+                        <a
+                          href="javascript:void(0);"
+                          className="menu-item-button"
+                        >
+                          <div className="icon">
+                            <i className="icon-layers" />
+                          </div><a href="/categoryList">
+                          <div className="text" > Category List </div>
+                          </a>
+                        </a>
+                        <ul className="sub-menu">
+                          <li className="sub-menu-item">
+                            <a href="category-list.html" className>
+                              <div className="text">Category list</div>
+                            </a>
+                          </li>
+                          <li className="sub-menu-item">
+                            <a href="new-category.html" className>
+                              <div className="text">New category</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+
                       <li className="menu-item has-children">
                         <a
                           href="javascript:void(0);"
@@ -440,6 +430,14 @@ function AdminSideBar(){
               </div>
             </div>
             {/* /section-menu-left */}
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/bootstrap-select.min.js"></script>
+            <script src="js/zoom.js"></script>
+            <script src="js/switcher.js"></script>
+            <script src="js/theme-settings.js"></script>
+            <script src="js/main.js"></script>
         </>
     )
 }
