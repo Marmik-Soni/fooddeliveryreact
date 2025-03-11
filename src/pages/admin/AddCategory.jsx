@@ -1,34 +1,35 @@
-
 // Import components
 import AdminFooter from "../../components/admin/AdminFooter";
 import AdminHeader from "../../components/admin/AdminHeader";
 import AdminSideBar from "../../components/admin/AdminSidebar";
 
-// Import necessary libraries
+// Import firebase libraries
 import { db } from "../../firebaseconfig";
 import { addDoc } from "firebase/firestore";
 import { collection } from "firebase/firestore";
+
+// Import utils
 import { useState } from "react";
+import { Error, Success } from "../../utils/messeges";
 
 function AddCategory() {
+  let [name, setName] = useState("");
+  let [description, setDescription] = useState("");
 
-    let [name, setName] = useState("");
-    let [description, setDescription] = useState("");
 
-    async function AddCategory() {
-        try{
-            let colref = collection(db, "categories");
-            await addDoc(colref, {
-                name: name,
-                description: description
-            });
-        }   
-        catch(error) {
-            console.log(error);
-        }
+  async function addCategory() {
+    try {
+      const colRef = collection(db, "categories");
+      await addDoc(colRef, {
+        name: name,
+        description: description
+      });
+      Success("Category added successfully");
+      
+    } catch (e) {
+      Error("Failed to add category");
     }
-
-
+  }
   return (
     <>
       <div id="wrapper">
@@ -36,14 +37,13 @@ function AddCategory() {
         <div id="page" className>
           {/* layout-wrap */}
           <div className="layout-wrap">
-
             {/* SideBar */}
             <AdminSideBar />
 
             {/* Header */}
             <AdminHeader />
 
-            {/* section-content-right */}
+            {/* Main Content */}
             <div className="section-content-right">
               <div className="main-content">
                 {/* main-content-wrap */}
@@ -94,7 +94,8 @@ function AddCategory() {
                         </fieldset>
                         <fieldset className="name">
                           <div className="body-title">
-                            Category Description <span className="tf-color-1">*</span>
+                            Category Description{" "}
+                            <span className="tf-color-1">*</span>
                           </div>
                           <textarea
                             value={description}
@@ -107,19 +108,14 @@ function AddCategory() {
                             required
                           />
                         </fieldset>
-                        <fieldset className="category">
-                          <div className="body-title">Select category icon</div>
-                          <div className="select flex-grow">
-                            <select className>
-                              <option>Select icon</option>
-                              <option>icon 1</option>
-                              <option>icon 2</option>
-                            </select>
-                          </div>
-                        </fieldset>
+
                         <div className="bot">
                           <div />
-                          <button onChange={AddCategory} className="tf-button w208" type="submit">
+                          <button
+                            onClick={addCategory}
+                            className="tf-button w208"
+                            type="button"
+                          >
                             Save
                           </button>
                         </div>
@@ -133,7 +129,6 @@ function AddCategory() {
 
                 {/* Footer */}
                 <AdminFooter />
-
               </div>
               {/* /main-content */}
             </div>
