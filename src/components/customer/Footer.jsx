@@ -7,7 +7,7 @@ function Footer(){
                 <div className="row row-gap-4 align-items-center">
                   <div className="col-md-4">
                     <div className="information-1 text-center">
-                      <h5 className="mb-24 color-ter">information</h5>
+                      <h5 className="mb-24 color-ter">Information</h5>
                       <p className="mb-8 white">
                         3910 S, Magna,ut, United States
                       </p>
@@ -25,7 +25,7 @@ function Footer(){
                   </div>
                   <div className="col-md-4">
                     <div className="information-1 text-center">
-                      <a href="index-2.html" className="mb-24">
+                      <a href="/" className="mb-24">
                         <img src="/savory/assets/media/footer-logo.png" alt />
                       </a>
                       <p className="mb-24 white">
@@ -144,7 +144,7 @@ function Footer(){
                   </div>
                   <div className="col-md-4">
                     <div className="information-1 information-3 text-center">
-                      <h5 className="mb-24 color-ter">working hours</h5>
+                      <h5 className="mb-24 color-ter">Working Hours</h5>
                       <p className="mb-8 white">
                         Monday - Friday 08:00 am to 12:00 pm
                       </p>
@@ -160,7 +160,7 @@ function Footer(){
               <div className="text-center">
                 <p className="white">
                   @2024 All Rights Copyright{" "}
-                  <a href="index-2.html" className="color-ter fw-700">
+                  <a href="/" className="color-ter fw-700">
                     Savory Bites.
                   </a>
                 </p>

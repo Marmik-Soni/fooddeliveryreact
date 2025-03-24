@@ -230,9 +230,9 @@ function Home() {
                 ingredients
               </span>
               <h2 className="medium-black">
-                best quality
+                Best Quality
                 <br />
-                ingredients
+                Ingredients
               </h2>
             </div>
             <div className="row row-gap-4 align-items-center">
@@ -240,9 +240,9 @@ function Home() {
                 <div className="ingredients-content">
                   <div className="mb-64">
                     <h5 className="color-ter mb-24">
-                      artisan
+                      Artisan
                       <br />
-                      buns
+                      Buns
                     </h5>
                     <div className="d-flex align-items-center light-gray gap-6">
                       <div className="ingredients-ul" />
@@ -255,9 +255,9 @@ function Home() {
                   </div>
                   <div className="quality-text">
                     <h5 className="color-ter-5 mb-24">
-                      ground
+                      Ground
                       <br />
-                      chicken
+                      Chicken
                     </h5>
                     <div className="d-flex align-items-center light-gray gap-6">
                       <div className="ingredients-ul" />
@@ -280,9 +280,9 @@ function Home() {
                 <div className="ingredients-content-2">
                   <div className="mb-64">
                     <h5 className="color-quat mb-24 text-end">
-                      fresh
+                      Fresh
                       <br />
-                      veggies
+                      Veggies
                     </h5>
                     <div className="d-flex align-items-center justify-content-end light-gray gap-8">
                       <p className="mb-4p light-gray">Only Fresh Veggies</p>
@@ -295,9 +295,9 @@ function Home() {
                   </div>
                   <div className="quality-right-text quality-text-1">
                     <h5 className="color-primary mb-24 text-end">
-                      ground
+                      Ground
                       <br />
-                      turkey
+                      Turkey
                     </h5>
                     <div className="d-flex align-items-center justify-content-end light-gray gap-8">
                       <p className="mb-4p fw-400 light-gray">Ground Fresh</p>
@@ -319,7 +319,7 @@ function Home() {
         {/* BANNER SECTION START */}
         <section className="banner-1 py-80 mb-80">
           <div className="container-fluid">
-            <h1 className="color-ter mb-6">family</h1>
+            <h1 className="color-ter mb-6">Family Restaurant</h1>
             <h4 className="mb-16 white">
               is rich with flavor. it’s people
               <br />
